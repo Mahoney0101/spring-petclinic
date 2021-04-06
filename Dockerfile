@@ -1,4 +1,4 @@
 FROM anapsix/alpine-java 
-COPY /target/*.jar /spring-petclinic-2.2.0.jar 
+COPY /target/jenkinsbuild.jar /spring-petclinic-2.2.0.jar 
 CMD ["java","-jar","/spring-petclinic-2.2.0.jar"]
 
